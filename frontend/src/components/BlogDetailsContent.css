@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 6px;
+    font-family: "Poppins", serif;
+}
+img{
+    height: 500px;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    padding: 5px 20px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    overflow: hidden;
+}
+.blogauthor{
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+hr{
+  border: 0; 
+  height: 1px; 
+  box-shadow: 1px 3px 
+}

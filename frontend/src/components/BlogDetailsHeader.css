@@ -1,0 +1,20 @@
+*{
+    margin: 50px;
+    padding: 6px;
+    font-family: "Poppins", serif;
+}
+.BlogDetailsHeaderContent{
+    background-color: #f3bbb5;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 5px;
+}
+h1{
+    color: #423d3a;
+}
+p{
+    color: #423d3a;
+    line-height: 25px;
+}
+
+  
