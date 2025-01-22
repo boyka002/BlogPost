@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F3BBB5;
+}
+.search-filter-flex{
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+}
+.blog-card-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 480px) {
+    .blog-card-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

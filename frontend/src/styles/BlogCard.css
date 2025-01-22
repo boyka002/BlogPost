@@ -1,0 +1,25 @@
+.blog-card {
+    background-color: white;
+    margin: 20px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%; /* Make the image fill the card's width */
+    height: 100%; /* Optional: Make the image fill the card's height */
+    object-fit: cover; /* Ensures the image scales and crops proportionally */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+h1{
+    padding: 20px 20px 0 20px;
+    margin: 20px 20px 0 20px;
+}
+.blog-detail-flex{
+    padding: 0 20px;
+    margin:  0 20px;
+    display: flex;
+    justify-content: space-between;
+}
